@@ -1,15 +1,29 @@
-.navbar {
-  width: 100%;
-  list-style: none; 
-  
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.channelItem {
+  display: flex;
+  flex-flow: column nowrap;
+  list-style: none;
 }
 
-li {
-  display: inline;
+.channelImage {
+  width: 308px;
+  height: 205px;
+  margin-bottom: 5px;
+}
+
+.channelImageHeader {
+  width: 177px;
+  height: 14px;
+}
+
+.channelHeaderMain {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif
+
 }
